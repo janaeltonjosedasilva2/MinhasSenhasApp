@@ -36,7 +36,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@+id/loginButton"
+            android:layout_above="@+id/MainActivity_LoginButton"
             android:layout_below="@+id/readItTogetherTextView"
             android:gravity="center"
             android:orientation="vertical">
@@ -52,13 +52,13 @@
                 android:textSize="15sp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/emailEditTextInput"
+                    android:id="@+id/MainActivity_EmailEditTextInput"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/passwordEditTextLayout"
+                android:id="@+id/MainActivity_PasswordEditTextLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
@@ -68,7 +68,7 @@
                 android:textSize="15sp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/passwordEditTextInput"
+                    android:id="@+id/MainActivity_PasswordEditTextInput"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -97,7 +97,7 @@
             </FrameLayout>
         </LinearLayout>
         <Button
-            android:id="@+id/loginButton"
+            android:id="@+id/MainActivity_LoginButton"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_above="@+id/skipTextView"
